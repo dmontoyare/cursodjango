@@ -2,7 +2,13 @@ from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse
 from .models import Question
 
+'''
+django tamplate language: lenguaje de djando para escribir en html ver en link:
+https://docs.djangoproject.com/en/4.0/ref/templates/language/
+etiquetas en django template langage: sirven para varias cosas como evitar hardcogind ver link: 
+https://docs.djangoproject.com/en/4.0/ref/templates/builtins/
 
+'''
 '''A continuacion se crean 4 viastas basadas en funciones 
 (function base views
 clase 21: ademas se incluye en el rtrun, la template correspondiente creada en el archivo de templates
